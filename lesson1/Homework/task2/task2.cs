@@ -6,5 +6,5 @@ Console.Write("Enter first number -> ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter second number -> ");
 int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(num1 > num2 ? "Первое число больше \nmax = " + num1 + ", " + "min = " + num2 
-    :"Второе число больше \nmax  = " + num2 + ", " + "min = " + num1);
+Console.WriteLine(num1 > num2 ? "Первое число больше \nmax = " + num1 + ", " + "min = " + num2
+    : "Второе число больше \nmax  = " + num2 + ", " + "min = " + num1);
