@@ -27,18 +27,16 @@
 
     static int Task13(int num)
     {
-        if (num < 100)
-        {
-            Console.WriteLine("There is no third number");
-        }
+        if (num < 100 && num > -100) return -1;
         else
         {
             while (!(num / 1000 == 0))
             {
                 num /= 10;
             }
+            num %= 10;
         }
-        return num %= 10;
+        return (num >= 0 ? num : -num);
     }
 
     static bool Task15(int day)
