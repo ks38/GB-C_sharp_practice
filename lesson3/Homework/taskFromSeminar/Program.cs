@@ -1,5 +1,11 @@
-﻿// Написать метод для разворота массива, не используя память под дополнительный массив
+﻿int[] array = new int[10];
 
+FillArray(array);
+PrintArray(array);
+Console.WriteLine();
+ReverseArray(array);
+Console.WriteLine();
+PrintArray(array);
 
 void FillArray(int[] arr)
 {
@@ -28,13 +34,4 @@ void ReverseArray(int[] arr)
         arr[arr.Length - (i + 1)] = temp;
     }
 }
-
-int[] array = new int[10];
-
-FillArray(array);
-PrintArray(array);
-Console.WriteLine();
-ReverseArray(array);
-Console.WriteLine();
-PrintArray(array);
 
