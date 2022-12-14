@@ -1,6 +1,6 @@
 ﻿Random rand = new Random();
-int rows = GetNumber("Enter rows count: ");
-int columns = GetNumber("Enter columns count: ");
+int rows = GetNumber("Enter rows quantity: ");
+int columns = GetNumber("Enter columns quantity: ");
 int[,] matrix = CreateMatrix(rows, columns);
 int searchRow = GetNumber("Enter row index to search: ");
 int searchColumn = GetNumber("Enter column index to search: ");
@@ -60,7 +60,6 @@ int GetNumber(string message)
 void Sleep()
 {
     System.Threading.Thread.Sleep(1000);
-
 }
 // bool SearchElements(int[,] matr, int searcRow, int searchColumn)
 // {
